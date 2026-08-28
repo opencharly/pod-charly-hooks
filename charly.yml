@@ -949,13 +949,8 @@ marketplace:
                 profiles: [user]
             internals:
                 category: development
-                description: "Development internals for charly contributors — Go source map, install-plan IR, capabilities/OCI labels, vm-spec, libvirt/cloud-init renderers, cutover-policy, strict-policy, disposable, ovmf, generate-source, skill maintenance, and the agents/workflows/teams guide. Ships five agents (root-cause-analyzer, layer-validator, testing-validator, check-bed-runner, deploy-verifier) and the github MCP server."
+                description: "Development internals for charly contributors — Go source map, install-plan IR, capabilities/OCI labels, vm-spec, libvirt/cloud-init renderers, cutover-policy, strict-policy, disposable, ovmf, generate-source, skill maintenance, and the agents/workflows/teams guide. Ships five agents (root-cause-analyzer, layer-validator, testing-validator, check-bed-runner, deploy-verifier)."
                 keywords: [charly, development, internals, go, ir, agents, workflows]
-                mcp_servers:
-                    - name: github
-                      type: stdio
-                      command: "github-mcp-server"
-                      args: ['stdio', '--tools', 'get_me,list_workflows,list_workflow_runs,get_workflow_run,get_job_logs,list_workflow_jobs,get_file_contents,list_commits,get_commit,list_branches,issue_read,issue_write,add_issue_comment,list_issues,search_issues,pull_request_read,list_pull_requests,search_pull_requests']
             distros:
                 category: images
                 description: "Base OS images and hardware runtime — arch, fedora, debian, ubuntu, aurora, bazzite, GPU runtime (nvidia/cuda/rocm), bootc bootstrap, per-distro builders."
