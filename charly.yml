@@ -1003,6 +1003,11 @@ marketplace:
                 description: "Self-contained skills for the openclaw image family (CachyOS base): the headless openclaw gateway and the maximal non-browser openclaw-full."
                 keywords: [charly, openclaw, ai, chrome, mcp]
                 profiles: [container]
+            crabbox:
+                category: images
+                description: "Self-contained skills for the crabbox image family: the Crabbox CLI (layer-crabbox), the local Node/PostgreSQL coordinator (pod-crabbox) and the `crabbox:` check verb (plugin-crabbox) — the fully-local remote-execution control plane."
+                keywords: [charly, crabbox, cli, coordinator, remote, execution]
+                profiles: [user]
             punktfunk:
                 category: images
                 description: "Self-contained skills for the punktfunk streaming-host image family (CachyOS base): the punktfunk/1 QUIC host daemon, its browser console and its plugin runner, installed from unom's signed pacman repo with a headless Sway compositor for the host to drive."
