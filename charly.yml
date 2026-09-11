@@ -900,7 +900,7 @@ marketplace:
         name: charly-plugins
         version: 3.1.0
         description: |-
-            Claude Code, Codex, and Kimi plugins for OpenCharly, The wonky DevOps tool for you and your agents. — runtime commands, schema authoring, contributor internals, and deployable image families.
+            Claude Code, Codex, and Kimi plugins for OpenCharly — The wonky DevOps tool for you and your agents: runtime commands, schema authoring, contributor internals, and deployable image families.
         families:
             core:
                 category: commands
