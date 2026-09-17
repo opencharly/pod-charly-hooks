@@ -942,7 +942,7 @@ marketplace:
                 description: "The `charly box add-candy/cat/fetch/labels/refresh/rm-candy/set/write` authoring verbs served by candy/plugin-authoring."
                 keywords: [charly, authoring, box, candy]
                 profiles: [user]
-            candy:
+            candy-cli:
                 category: commands
                 description: "The `charly candy` authoring surface served by candy/plugin-candy."
                 keywords: [charly, candy, authoring]
