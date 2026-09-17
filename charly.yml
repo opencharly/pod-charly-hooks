@@ -942,9 +942,9 @@ marketplace:
                 description: "The `charly box add-candy/cat/fetch/labels/refresh/rm-candy/set/write` authoring verbs served by candy/plugin-authoring."
                 keywords: [charly, authoring, box, candy]
                 profiles: [user]
-            candy:
+            candy-cli:
                 category: commands
-                description: "The `charly candy` authoring surface served by candy/plugin-candy."
+                description: "The `charly candy` authoring surface served by candy/plugin-candy. (Named `candy-cli`, not `candy`, because the marketplace repo's own source tree lives at `candy/` — a family whose directory collides with it would be written straight into the refs-list source tree.)"
                 keywords: [charly, candy, authoring]
                 profiles: [user]
             bpf:
