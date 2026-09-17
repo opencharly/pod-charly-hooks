@@ -912,6 +912,46 @@ marketplace:
                 description: "The `charly cache` git-ref cache operator surface — status, clear, refresh, bypass."
                 keywords: [charly, cache, git-ref, refs]
                 profiles: [user]
+            pod-verbs:
+                category: commands
+                description: "Pod-lifecycle CLI verbs served by candy/plugin-pod — cp (host<->container copy), volume (list/reset named volumes), restart."
+                keywords: [charly, pod, cp, volume, restart, lifecycle]
+                profiles: [user]
+            pipeline:
+                category: commands
+                description: "The `charly pipeline` agent/workflow engine — plan agent stage, plan executor, deterministic probe verbs, template/frontmatter rendering."
+                keywords: [charly, pipeline, agent, workflow, plan]
+                profiles: [user]
+            review:
+                category: commands
+                description: "The `charly review` read-only GitHub PR review engine — verb:pr tools, the chat-completions review loop, verdict emission."
+                keywords: [charly, review, github, pr]
+                profiles: [user]
+            feature:
+                category: commands
+                description: "The `charly feature` / `charly box feature` Agent Driven Evaluation surface — run a deployment's baked plan as acceptance tests with agent grading."
+                keywords: [charly, feature, ade, acceptance]
+                profiles: [user]
+            authoring:
+                category: commands
+                description: "The `charly box add-candy/cat/fetch/labels/refresh/rm-candy/set/write` authoring verbs served by candy/plugin-authoring."
+                keywords: [charly, authoring, box, candy]
+                profiles: [user]
+            candy:
+                category: commands
+                description: "The `charly candy` authoring surface served by candy/plugin-candy."
+                keywords: [charly, candy, authoring]
+                profiles: [user]
+            bpf:
+                category: commands
+                description: "The `charly bpf` eBPF program surface served by candy/plugin-bpf."
+                keywords: [charly, bpf, ebpf]
+                profiles: [user]
+            cardwire:
+                category: commands
+                description: "The `charly cardwire` surface served by candy/plugin-cardwire."
+                keywords: [charly, cardwire]
+                profiles: [user]
             build:
                 category: commands
                 description: "Build/authoring CLI verbs — build, generate, list, inspect, merge, new, pull, validate, secrets, settings, migrate, charly-mcp-cmd."
