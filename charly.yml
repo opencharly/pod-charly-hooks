@@ -917,6 +917,11 @@ marketplace:
                 description: "Pod-lifecycle CLI verbs served by candy/plugin-pod — cp (host<->container copy), volume (list/reset named volumes), restart."
                 keywords: [charly, pod, cp, volume, restart, lifecycle]
                 profiles: [user]
+            agent:
+                category: commands
+                description: "The `charly tui` terminal UI for the agent control plane (candy/plugin-agent)."
+                keywords: [charly, agent, tui, control-plane]
+                profiles: [user]
             pipeline:
                 category: commands
                 description: "The `charly pipeline` agent/workflow engine — plan agent stage, plan executor, deterministic probe verbs, template/frontmatter rendering."
