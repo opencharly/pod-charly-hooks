@@ -907,6 +907,11 @@ marketplace:
                 description: "Runtime/lifecycle CLI verbs — start, stop, restart, charly-status, logs, shell, ssh, deploy, charly-update, remove, charly-config, cmd, charly-version, charly-doctor."
                 keywords: [charly, lifecycle, containers, verbs]
                 profiles: [user]
+            cache:
+                category: commands
+                description: "The `charly cache` git-ref cache operator surface — status, clear, refresh, bypass."
+                keywords: [charly, cache, git-ref, refs]
+                profiles: [user]
             build:
                 category: commands
                 description: "Build/authoring CLI verbs — build, generate, list, inspect, merge, new, pull, validate, secrets, settings, migrate, charly-mcp-cmd."
