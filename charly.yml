@@ -987,6 +987,11 @@ marketplace:
                 description: "Schema authoring for `kind: kubernetes` — Kustomize manifests, cluster probes via the `kube:` check verb, and the helm words (`helm-release` install step + `helm:` check verb)."
                 keywords: [charly, kubernetes, k8s]
                 profiles: [user]
+            kubevirt:
+                category: kind
+                description: "Schema authoring for `kind: kubevirt` — the 7th charly deploy substrate: KubeVirt VirtualMachine/VirtualMachineInstance lifecycle, containerDisk + DataVolume boot sources, snapshots, live migration, and the `kubevirt:` check verb (platform wait-ready, guest agent)."
+                keywords: [charly, kubevirt, k8s, vm]
+                profiles: [user]
             local:
                 category: kind
                 description: "Schema authoring for `kind: local` — local templates, ssh-host targets, managed ssh-config fragment."
