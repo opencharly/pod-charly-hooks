@@ -994,6 +994,11 @@ marketplace:
                 description: "Schema authoring for `kind: pod` and `kind: deploy` — charly.yml shapes, nested deploys, sidecars."
                 keywords: [charly, pod, deploy]
                 profiles: [user]
+            kubevirt:
+                category: kind
+                description: "Schema authoring for the `kubevirt:` deploy substrate (the 7th) — `kind: kubevirt` templates and `kubevirt:`/`target: kubevirt` deploys, the VirtualMachine CR lifecycle (DataVolume, runStrategy, VMI Ready + AgentConnected, managed `virtctl port-forward`), the out-of-process `kubevirt:` check verb, and the pinned KubeVirt + CDI platform install."
+                keywords: [charly, kubevirt, k8s, virtualmachine, cdi]
+                profiles: [user]
             internals:
                 category: development
                 description: "Development internals for charly contributors — Go source map, install-plan IR, capabilities/OCI labels, vm-spec, libvirt/cloud-init renderers, cutover-policy, strict-policy, disposable, ovmf, generate-source, skill maintenance, and the agents/workflows/teams guide. Ships five agents (root-cause-analyzer, layer-validator, testing-validator, check-bed-runner, deploy-verifier)."
@@ -1104,5 +1109,10 @@ marketplace:
                 description: "Self-contained skills for the AgentTeams multi-agent stack (CachyOS base): the decomposed agentteams box — minio, matrix/tuwunel, element, higress, controller — on pod and vm substrates, plus the compiled-in `charly agentteams` management CLI."
                 keywords: [charly, agentteams, multi-agent, matrix, higress, minio, controller, openclaw]
                 profiles: [container]
+            qdrant:
+                category: images
+                description: "Self-contained skills for the Qdrant vector-search service family: the pinned static-musl service candy (REST 6333 / gRPC 6334, persistent storage, admin API-key auth from the credential store) and the `charly qdrant` management CLI plus the declarative `qdrant:` check verb."
+                keywords: [charly, qdrant, vector, search, database]
+                profiles: [user]
         settings:
             source_path: ./plugins
