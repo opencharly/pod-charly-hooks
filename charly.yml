@@ -896,7 +896,6 @@ gate-test:
 marketplace:
     marketplace:
         name: charly-plugins
-        version: 2026.272.0616
         description: |-
             Claude Code, Codex, and Kimi plugins for OpenCharly — The agentic DevOps tool for you and your agents: runtime commands, schema authoring, contributor internals, and deployable image families.
         families:
