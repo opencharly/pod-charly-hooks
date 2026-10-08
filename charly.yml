@@ -1052,7 +1052,7 @@ marketplace:
                       url: "http://localhost:9224/mcp"
             openclaw:
                 category: images
-                description: "Self-contained skills for the openclaw image family (CachyOS base): the headless openclaw gateway and the maximal non-browser openclaw-full."
+                description: "Self-contained skills for the openclaw image family (CachyOS base): the headless openclaw gateway."
                 keywords: [charly, openclaw, ai, chrome, mcp]
                 profiles: [container]
             crabbox:
