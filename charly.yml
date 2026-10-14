@@ -974,6 +974,11 @@ marketplace:
                 description: "Schema authoring reference for `kind: box` and `kind: candy` — charly.yml composition, task verbs, validation."
                 keywords: [charly, image, layer, schema]
                 profiles: [user]
+            firecracker:
+                category: kind
+                description: "Schema authoring reference for the `firecracker` microVM substrate — the root-drive + kernel artefact, the VMM API surface (what it answers and what it rejects), and the boot recipe that needs no TAP, no root and no network."
+                keywords: [charly, firecracker, microvm, vmm, kvm]
+                profiles: [user]
             vm:
                 category: kind
                 description: "Schema authoring reference for `kind: vm` + bootc VM catalog — libvirt/QEMU backends, cloud_image vs bootc sources."
