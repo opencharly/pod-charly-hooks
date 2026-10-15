@@ -1,0 +1,7 @@
+# The families the org's skill entities declare, and which THIS repo's marketplace
+# entity must therefore carry — because `charly marketplace generate` refuses to emit a
+# corpus row for a family the marketplace entity does not declare:
+#   "skill <f> declares family <f> which the marketplace entity does not declare"
+# One family per line; blank lines and #-comments ignored.
+firecracker
+fireactions
