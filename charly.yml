@@ -1018,6 +1018,11 @@ marketplace:
                 description: "Base OS images and hardware runtime — arch, fedora, debian, ubuntu, aurora, bazzite, GPU runtime (nvidia/cuda/rocm), bootc bootstrap, per-distro builders."
                 keywords: [charly, distro, fedora, arch, debian, ubuntu, nvidia, cuda, bootc]
                 profiles: [user]
+            strata:
+                category: images
+                description: "The Strata family — the inference-engine layer, its cachyos-based image, the `charly strata` management CLI, and both beds: the deterministic GPU-free one and the exclusive-host GPU one."
+                keywords: [charly, strata, inference, engine, cachyos, gguf]
+                profiles: [user]
             languages:
                 category: images
                 description: "Programming language runtimes and package managers — python, python-ml, pixi (others like golang/rust/nodejs live in `charly-coder`)."
