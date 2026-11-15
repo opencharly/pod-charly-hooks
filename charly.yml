@@ -1129,5 +1129,16 @@ marketplace:
                 description: "Self-contained skills for the Qdrant vector-search service family: the pinned static-musl service candy (REST 6333 / gRPC 6334, persistent storage, admin API-key auth from the credential store) and the `charly qdrant` management CLI plus the declarative `qdrant:` check verb."
                 keywords: [charly, qdrant, vector, search, database]
                 profiles: [user]
+            # pod-qwen3-tts declares this family and the generator REFUSES a family the
+            # marketplace entity does not list ("skill \"qwen3-tts\" declares family
+            # \"qwen3-tts\" which the marketplace entity does not declare"), so an
+            # unregistered family is a corpus-build blocker, not a cosmetic gap. The entry
+            # follows the same shape as its siblings (qdrant, strata, comfyui, immich): one
+            # per-product family describing what the family's skills cover.
+            qwen3-tts:
+                category: images
+                description: "Self-contained skills for the Qwen3-TTS speech-service family: the OpenAI-compatible speech API (POST /v1/audio/speech, GET /v1/audio/voices) that Open WebUI's `openai` TTS engine calls, served over the upstream qwen-tts python API by a charly-owned shim."
+                keywords: [charly, qwen3-tts, tts, speech, audio, openwebui]
+                profiles: [user]
         settings:
             source_path: ./plugins
