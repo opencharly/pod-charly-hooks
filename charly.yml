@@ -1106,7 +1106,7 @@ marketplace:
                 profiles: [container]
             immich:
                 category: images
-                description: "Self-contained skills for the immich photo-management image (immich + immich-ml variants)."
+                description: "Self-contained skills for the immich photo-management image (one variant; the ML backend runs in the same image on port 3003)."
                 keywords: [charly, immich, photos]
                 profiles: [container]
             hermes:
