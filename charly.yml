@@ -1109,6 +1109,11 @@ marketplace:
                 description: "Self-contained skills for the immich photo-management image (one variant; the ML backend runs in the same image on port 3003)."
                 keywords: [charly, immich, photos]
                 profiles: [container]
+            ai-toolkit:
+                category: images
+                description: "Self-contained skills for the Ostris AI Toolkit diffusion-training pod: the GUI/CLI trainer and the Z-Image LoRA path."
+                keywords: [charly, ai-toolkit, diffusion, lora]
+                profiles: [container]
             hermes:
                 category: images
                 description: "Self-contained skills for the hermes agent image (hermes + hermes-playwright variants). Consumes the jupyter MCP server for notebook manipulation — enable charly-jupyter alongside."
