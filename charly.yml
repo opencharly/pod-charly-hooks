@@ -1038,15 +1038,6 @@ marketplace:
                 description: "CLI utilities and the charly binary deploy artifacts — ripgrep, himalaya, whisper, nano-pdf, summarize, ordercli, gogcli, sherpa-onnx, plus the `charly` binary deployment skill."
                 keywords: [charly, cli, tools, utilities]
                 profiles: [user]
-            jupyter:
-                category: images
-                description: "Self-contained skills + MCP wiring for the jupyter image family (jupyter, jupyter-ml, jupyter-ml-notebook, unsloth-studio). Ships the jupyter MCP server (port 8888)."
-                keywords: [charly, jupyter, notebooks, mcp, collaboration, ml]
-                profiles: [container]
-                mcp_servers:
-                    - name: jupyter
-                      type: http
-                      url: "http://localhost:8888/mcp"
             coder:
                 category: images
                 description: "Self-contained skills + MCP wiring for charly coder/dev images (arch-coder, debian-coder, fedora-coder, ubuntu-coder, charly-arch). Ships the charly MCP server (port 18765). Bundles language runtimes (golang, rust, nodejs)."
@@ -1091,12 +1082,12 @@ marketplace:
                       url: "http://localhost:22718/mcp/server"
             ollama:
                 category: images
-                description: "Self-contained skills for running the ollama LLM-server image. Pair with charly-jupyter to expose Ollama models to Jupyter notebooks via the jupyter MCP."
+                description: "Self-contained skills for running the ollama LLM-server image. An externally provided jupyter MCP server can expose its models to notebooks."
                 keywords: [charly, ollama, llm]
                 profiles: [container]
             openwebui:
                 category: images
-                description: "Self-contained skills for the openwebui chat-frontend image. Consumes the jupyter MCP server (enable charly-jupyter alongside) for in-chat code execution."
+                description: "Self-contained skills for the openwebui chat-frontend image. Can use an externally provided jupyter MCP server for in-chat code execution."
                 keywords: [charly, openwebui, chat, llm]
                 profiles: [container]
             comfyui:
@@ -1116,7 +1107,7 @@ marketplace:
                 profiles: [container]
             hermes:
                 category: images
-                description: "Self-contained skills for the hermes agent image (hermes + hermes-playwright variants). Consumes the jupyter MCP server for notebook manipulation — enable charly-jupyter alongside."
+                description: "Self-contained skills for the hermes agent image (hermes + hermes-playwright variants). Can use an externally provided jupyter MCP server for notebook manipulation."
                 keywords: [charly, hermes, agent, playwright]
                 profiles: [container]
             filebrowser:
