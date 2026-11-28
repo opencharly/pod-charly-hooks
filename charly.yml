@@ -1040,7 +1040,7 @@ marketplace:
                 profiles: [user]
             jupyter:
                 category: images
-                description: "The `llama-cpp` skill family — prebuilt llama.cpp binaries and GGUF conversion/quantisation tools. The Jupyter image family and its MCP server were retired; this entry stays because `llama-cpp` still declares `family: jupyter`."
+                description: "The `llama-cpp` skill family — prebuilt llama.cpp binaries and GGUF conversion/quantisation tools. The retired notebook image family and its MCP server are gone; this entry stays because `llama-cpp` still declares this family."
                 keywords: [charly, jupyter, llama.cpp, gguf, quantize]
                 profiles: [container]
             coder:
