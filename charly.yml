@@ -1038,11 +1038,6 @@ marketplace:
                 description: "CLI utilities and the charly binary deploy artifacts — ripgrep, himalaya, whisper, nano-pdf, summarize, ordercli, gogcli, sherpa-onnx, plus the `charly` binary deployment skill."
                 keywords: [charly, cli, tools, utilities]
                 profiles: [user]
-            jupyter:
-                category: images
-                description: "The `llama-cpp` skill family — prebuilt llama.cpp binaries and GGUF conversion/quantisation tools. The retired notebook image family and its MCP server are gone; this entry stays because `llama-cpp` still declares this family."
-                keywords: [charly, jupyter, llama.cpp, gguf, quantize]
-                profiles: [container]
             coder:
                 category: images
                 description: "Self-contained skills + MCP wiring for charly coder/dev images (arch-coder, debian-coder, fedora-coder, ubuntu-coder, charly-arch). Ships the charly MCP server (port 18765). Bundles language runtimes (golang, rust, nodejs)."
